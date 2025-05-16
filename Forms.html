@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Registration Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Registration Details</legend>
+
+            
+            <h3>Contact Information</h3>
+
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="sname" placeholder="Enter your full name">
+            <br><br>
+
+            <label for="email">Email Address :</label>
+            <input type="email" id="email" name="semail" placeholder="Your Email">
+            <br><br>
+
+            <label for="phone">Phone Number :</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+            <br><br>
+
+            <label for="address">Address :</label><br>
+            <textarea id="address" name="address" rows="3" cols="40" placeholder="Enter your address"></textarea>
+            <br><br>
+
+        
+            <h3>Personal Information</h3>
+
+            <label for="dob">Date of Birth :</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+
+            <label>Gender :</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+            <br><br>
+
+            <label for="password">Create Password :</label>
+            <input type="password" id="password" name="password" placeholder="Your Password">
+            <br><br>
+
+            
+            <h3>Education & Skills</h3>
+
+            <label for="courses">Choose Course :</label>
+            <select id="courses" name="courses">
+                <option>--Computer Science--</option>
+                <optgroup label="3 Months Course">
+                    <option>DBMS</option>
+                    <option>HTML/CSS</option>
+                </optgroup>
+                <optgroup label="6 Months Course">
+                    <option>JS</option>
+                    <option>Java</option>
+                </optgroup>
+                <optgroup label="1 Year Course">
+                    <option>DSA</option>
+                    <option>Python</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <label>Technical Skills :</label><br>
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label>
+            <input type="checkbox" id="c_cpp" name="skills" value="C/C++">
+            <label for="c_cpp">C/C++</label>
+            <input type="checkbox" id="html_css" name="skills" value="HTML/CSS">
+            <label for="html_css">HTML/CSS</label>
+            <input type="checkbox" id="dsa" name="skills" value="DSA">
+            <label for="dsa">DSA</label>
+            <br><br>
+
+
+
+            
+            <input type="submit" value="Submit"> 
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
